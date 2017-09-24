@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="noActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="test" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_15</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="Calculat0r" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_1</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="MediaPlayer" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_5</item>
+        <item name="colorPrimaryDark">@color/design_5</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="List" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_3</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="List2" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_4</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="List3" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_5</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="List4" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_6</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="List5" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_7</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="notification" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_8</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="test1" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_9</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="Progress" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/design_10</item>
+        <item name="actionBarSize">65sp</item>
+    </style>
+
+    <style name="tab" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="color">
+        <item name="android:colorControlHighlight">@color/design_3</item>
+    </style>
+    <style name="ripple">
+        <item name="android:theme">@style/color</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="rippleipple_accent">
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <style name="accent_ripple">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:theme">@style/rippleipple_accent</item>
+    </style>
+
+</resources>

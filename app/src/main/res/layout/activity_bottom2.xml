@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.gagandeep.myapplication.TabbedActivity.Bottom2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_above="@+id/bottom"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:background="?android:windowBackground"
+        app:itemTextColor="#ddffffff"
+        app:itemIconTint="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        design:menu="@menu/bottom2">
+
+
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/scroll_cal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Calculat0r"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="?attr/selectableItemBackground"
+    tools:context="com.example.gagandeep.myapplication.Calculator.CalculatorActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/coffee_shop"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonIncrement"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="+"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonDecrement"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="-"
+        android:textStyle="bold"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewQuantity"
+        app:layout_constraintStart_toEndOf="@+id/textViewQuantity" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonIncrement"
+        app:layout_constraintStart_toEndOf="@+id/buttonIncrement" />
+
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/order"
+        android:textStyle="bold"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxVanilla"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxVanilla" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/order_summary"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="@+id/buttonOrder"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOrder" />
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="$0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxChocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/chocolate"
+        app:layout_constraintStart_toStartOf="@+id/buttonIncrement"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIncrement" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCaramel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/caramel"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxChocolate"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxChocolate" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVanilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/vanilla"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxCaramel"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxCaramel" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Thanks for ordering"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplay" />
+
+</android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

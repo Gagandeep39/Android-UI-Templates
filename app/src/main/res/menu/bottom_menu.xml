@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/favourite"
+        app:showAsAction="always"
+        android:title="Favourite"/>
+    <item android:title="List"
+        android:icon="@drawable/ic_android_black_24dp"
+            android:id="@+id/llist"/>
+    <item android:title="Settings"
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+
+</menu>

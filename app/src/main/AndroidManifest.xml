@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gagandeep.myapplication">
+
+    <!-- Always declare themes is manifest -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Mainv3.Mainv3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculator.CalculatorActivity"
+            android:label="@string/calculator"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/Calculat0r" />
+        <activity
+            android:name=".Media.MediaActivity"
+            android:label="@string/media_player"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/MediaPlayer" />
+        <activity
+            android:name=".List.ListActivity"
+            android:label="@string/list"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List" />
+        <activity
+            android:name=".EmptyActivity.EmptyActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Notification.NotificationActivity"
+            android:label="@string/notification"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/notification" />
+        <activity
+            android:name=".List.List2Activity"
+            android:label="@string/second_list"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List2" />
+        <activity
+            android:name=".List.List3.List3Activity"
+            android:label="@string/custom_list"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List3" />
+        <activity
+            android:name=".List.List4.List4Activity"
+            android:label="@string/custom_second"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List4" />
+        <activity
+            android:name=".List.List5.List5Activity"
+            android:label="@string/third_custom_list"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List5" />
+        <activity
+            android:name=".MainActivityOld"
+            android:label="@string/old_main"
+            android:parentActivityName=".Mainv2Activity.MainActivity" />
+        <activity
+            android:name=".ReyclerView.Recycler1.Recycler1.Recycler1Activity"
+            android:label="@string/recycler_view1"
+            android:parentActivityName=".Mainv2Activity.MainActivity" />
+        <activity
+            android:name=".ReyclerView.Recycler1.Recycler2.Recycler2Activity"
+            android:label="@string/title_activity_recycler2"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/test" />
+        <activity
+            android:name=".TabbedActivity.TabActivity"
+            android:label="@string/tab"
+            android:parentActivityName=".Mainv2Activity.MainActivity"
+            android:theme="@style/List5" />
+        <activity
+            android:name=".ReyclerView.Recycler1.Recycler3.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/test" />
+        <activity
+            android:name=".ReyclerView.Recycler1.Recycler4.Recycler4Activity"
+            android:label="Recycler Activity 4" />
+        <activity
+            android:name=".ReyclerView.Recycler1.Recycler5Activity.Recycler5Activity"
+            android:label="Recycler Activity 5" />
+        <activity android:name=".ReyclerView.Recycler1.Recycler6.Recycler6Activity" />
+        <activity
+            android:name=".TabbedActivity.TabbedActivity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".TabbedActivity.Tabbed2Activity"
+            android:parentActivityName=".Mainv2Activity.MainActivity" />
+        <activity
+            android:name=".Mainv2Activity.MainActivity"
+            android:label="Activity" />
+        <activity
+            android:name=".Scroll_main"
+            android:label="@string/title_activity_scroll_main"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".BottomActivity" />
+        <activity
+            android:name=".TabbedActivity.Tabbed3Activity"
+            android:label="Tab"
+            android:parentActivityName=".Mainv3.Mainv3Activity" />
+        <activity android:name=".TabbedActivity.Bottom2Activity" />
+        <activity android:name=".List.Earthquake.EarthquakeActivity" />
+        <activity android:name=".HowtoActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+    </application>
+
+</manifest>

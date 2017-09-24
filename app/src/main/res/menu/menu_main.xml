@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Favourite"
+        android:id="@+id/favourite"
+        app:actionViewClass="100"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/notification"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    tools:context="com.example.gagandeep.myapplication.Notification.NotificationActivity">
+
+    <FrameLayout
+        android:layout_marginTop="1.7sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_marginLeft="0.8sp"
+        android:layout_marginRight="0.8sp"
+        android:layout_marginBottom="0.8sp"
+        android:background="@color/design_5">
+    <TextView
+        android:id="@+id/textNotification"
+        style="@style/mainActivity"
+        android:text="@string/simple_notification" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_6">
+        <TextView
+            android:id="@+id/textBig"
+            style="@style/mainActivity"
+            android:text="@string/big_notification" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_7">
+        <TextView
+            android:id="@+id/textImage"
+            style="@style/mainActivity"
+            android:text="@string/image_notification" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_8">
+        <TextView
+            android:id="@+id/textSimple"
+            style="@style/mainActivity"
+            android:text="@string/simple_notification" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_9">
+        <TextView
+            android:id="@+id/textSimple2"
+            style="@style/mainActivity"
+            android:text="@string/simple_notification2" />
+    </FrameLayout><FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_margin="0.8sp"
+    android:background="@color/design_10">
+    <TextView
+        android:id="@+id/textSimple3"
+        style="@style/mainActivity"
+        android:text="Simple Notification 3" />
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_11">
+    <TextView
+        android:id="@+id/textImage2"
+        style="@style/mainActivity"
+        android:text="Image notification 2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:layout_margin="0.8sp"
+        android:background="@color/design_10">
+        <TextView
+            android:id="@+id/textSimple4"
+            style="@style/mainActivity"
+            android:text="Image notification 2" />
+    </FrameLayout>
+
+</LinearLayout>
