@@ -90,9 +90,11 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+
     <style name="color">
         <item name="android:colorControlHighlight">@color/design_3</item>
     </style>
+
     <style name="ripple">
         <item name="android:theme">@style/color</item>
         <item name="android:background">?attr/selectableItemBackground</item>
@@ -101,9 +103,11 @@
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="rippleipple_accent">
         <item name="android:colorControlHighlight">@color/colorAccent</item>
     </style>
+
     <style name="accent_ripple">
         <item name="android:background">?attr/selectableItemBackground</item>
         <item name="android:theme">@style/rippleipple_accent</item>

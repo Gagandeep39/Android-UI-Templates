@@ -110,8 +110,19 @@
             android:parentActivityName=".Mainv3.Mainv3Activity" />
         <activity android:name=".TabbedActivity.Bottom2Activity" />
         <activity android:name=".List.Earthquake.EarthquakeActivity" />
-        <activity android:name=".HowtoActivity"
-            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".HowtoActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Database1.DatabaseActivity"
+            android:label="@string/title_activity_database"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Database1.EditorActivity"></activity>
+
+        <provider
+            android:name=".Database1.Data.Provider"
+            android:authorities="com.example.gagandeep.myapplication"
+            android:exported="false" />
     </application>
 
 </manifest>

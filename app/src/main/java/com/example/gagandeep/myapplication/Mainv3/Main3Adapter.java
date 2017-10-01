@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.gagandeep.myapplication.BottomActivity;
 import com.example.gagandeep.myapplication.Calculator.CalculatorActivity;
+import com.example.gagandeep.myapplication.Database1.DatabaseActivity;
 import com.example.gagandeep.myapplication.EmptyActivity.EmptyActivity;
 import com.example.gagandeep.myapplication.HowtoActivity;
 import com.example.gagandeep.myapplication.List.Earthquake.EarthquakeActivity;
@@ -23,7 +24,6 @@ import com.example.gagandeep.myapplication.List.ListActivity;
 import com.example.gagandeep.myapplication.MainActivityOld;
 import com.example.gagandeep.myapplication.Mainv2Activity.MainActivity;
 import com.example.gagandeep.myapplication.Media.MediaActivity;
-import com.example.gagandeep.myapplication.Notification.NotificationActivity;
 import com.example.gagandeep.myapplication.R;
 import com.example.gagandeep.myapplication.ReyclerView.Recycler1.Recycler1.Recycler1Activity;
 import com.example.gagandeep.myapplication.ReyclerView.Recycler1.Recycler2.Recycler2Activity;
@@ -139,6 +139,9 @@ public class Main3Adapter extends RecyclerView.Adapter<Main3Adapter.ViewHolder> 
                         break;
                     case 22:
                         context.startActivity(new Intent(context, HowtoActivity.class));
+                        break;
+                    case 23:
+                        context.startActivity(new Intent(context, DatabaseActivity.class));
                         break;
 
                 }

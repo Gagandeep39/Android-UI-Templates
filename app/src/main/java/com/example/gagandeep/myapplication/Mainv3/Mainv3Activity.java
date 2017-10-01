@@ -1,7 +1,7 @@
 package com.example.gagandeep.myapplication.Mainv3;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class Mainv3Activity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.Adapter adapter;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -47,8 +48,10 @@ public class Mainv3Activity extends AppCompatActivity {
         main3s.add(new Main3("21. Tab 3", "Body", R.drawable.image999));
         main3s.add(new Main3("22. Earthquake", "Body", R.drawable.image999));
         main3s.add(new Main3("23. Widgets", "Body", R.drawable.image999));
+        main3s.add(new Main3("24. Database 1", "Body", R.drawable.image999));
         adapter = new Main3Adapter(main3s, this);
         recyclerView.setHasFixedSize(true);
+        //recyclerView.setBackground(getResources().getDrawable(R.drawable.lol));
         recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);

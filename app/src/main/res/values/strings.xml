@@ -146,4 +146,5 @@
     <string name="title_activity_scroll_main">Scroll_main</string>
 
     <string name="near_the">Near the</string>
+    <string name="title_activity_database">DatabaseActivity</string>
 </resources>
